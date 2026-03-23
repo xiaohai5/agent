@@ -1,0 +1,60 @@
+{
+  "dataset_size": 10,
+  "success_count": 10,
+  "failure_count": 0,
+  "success_rate": 1.0,
+  "route_accuracy": 0.8,
+  "completed_rate": 1.0,
+  "needs_confirmation_rate": 0.0,
+  "verification_complete_rate": 0.9,
+  "avg_latency_sec": 28.6178,
+  "p50_latency_sec": 30.3152,
+  "p90_latency_sec": 35.4207,
+  "p95_latency_sec": 37.8141,
+  "max_latency_sec": 40.2075,
+  "throughput_qps": 0.0349,
+  "total_wall_time_sec": 286.1803,
+  "route_distribution": {
+    "ticket": 3,
+    "roadmap": 4,
+    "rag": 3
+  },
+  "answer_source_distribution": {
+    "ticket_mcp": 3,
+    "roadmap_mcp": 4,
+    "rag_service": 3
+  },
+  "status_distribution": {
+    "completed": 10
+  },
+  "by_expected_route": {
+    "ticket": {
+      "count": 3,
+      "success_rate": 1.0,
+      "route_accuracy": 1.0,
+      "avg_latency_sec": 36.651,
+      "verification_complete_rate": 0.6667
+    },
+    "roadmap": {
+      "count": 3,
+      "success_rate": 1.0,
+      "route_accuracy": 1.0,
+      "avg_latency_sec": 29.4914,
+      "verification_complete_rate": 1.0
+    },
+    "rag": {
+      "count": 2,
+      "success_rate": 1.0,
+      "route_accuracy": 1.0,
+      "avg_latency_sec": 22.1117,
+      "verification_complete_rate": 1.0
+    },
+    "other": {
+      "count": 2,
+      "success_rate": 1.0,
+      "route_accuracy": 0.0,
+      "avg_latency_sec": 21.7638,
+      "verification_complete_rate": 1.0
+    }
+  }
+}
